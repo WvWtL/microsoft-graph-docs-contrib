@@ -40,6 +40,8 @@ Choose the permission or permissions marked as least privileged for this API. Us
 <!-- { "blockType": "permissions", "name": "user_get_mailboxsettings" } -->
 [!INCLUDE [permissions-table](../includes/permissions/user-get-mailboxsettings-permissions.md)]
 
+Delegates are restricted to their personal mailboxSettings. Application permissions are, additional to role and scope, required to access mailboxSettings for any mailbox.
+
 ## HTTP request
 
 To get all the mailbox settings for a user:
